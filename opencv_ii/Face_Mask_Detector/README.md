@@ -1,4 +1,6 @@
 # File listing
+- **predictions**  
+  results of inference on the test images
 - **chart.png**  
   training progress - left to run over a weekend but peaked after just a few hours and 1500 iterations
 - **class.names**      
@@ -11,8 +13,7 @@
   basic training configuration
 - **yolov3.cfg**  
   network architecture and training hyperparameters
-- **predictions**  
-  results of inference on the test images
+
   
 # Results of inference on test videos
 1. <https://youtu.be/oWF1WC8WbkE>
