@@ -28,5 +28,5 @@
 ## Command for running inference on a test image
     ..\..\darknet-master\build\darknet\x64\darknet.exe detector test yolov3-setup.data yolov3.cfg backup/yolov3_best.weights test_set\test-image1.jpg -thresh .6
 
-## Command for trunning inference on a test video
+## Command for running inference on a test video
     ..\..\darknet-master\build\darknet\x64\darknet.exe detector demo yolov3-setup.data yolov3.cfg backup/yolov3_best.weights test_set\test-video2.mp4 -thresh .6 -out_filename out-vid2.avi -dont_show
