@@ -13,8 +13,13 @@
   network architecture and training hyperparameters
 
 # Main changes to yolov3.cfg
-Subdivisions set to 64 to work with limited GPU RAM  
-Width/Height set to 832 to help detect small faces in test video (with limited success - this may actually have been counter productive)
+- Subdivisions set to 64 to work with limited GPU RAM  
+- Width/Height set to 832 to help detect small faces in test video (with limited success; this may actually have been counter productive)
+- Burn_in set to 1000 because time was not an issue and had not had success previously using a value of 100
+- Max_batches set to ~50000 because I planned to leave this running as long as it took and had not had success previously after 10000 batches
+- steps set to high values which were never reached on this training run which i terminated after 48 hours at 25000 batches
+- classes set to 2 at each of three yolo layers
+- filters set to 21 at each of three conv layers immediately preceding a yolo layer: 21 = (5 + classes) * 3
 
 # Darknet commands
 ## Command for training the network
