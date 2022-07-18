@@ -1,10 +1,16 @@
 # File listing
-- chart.png           # training progress - left to run over a weekend but peaked after just a few hours and 1500 iterations
-- class.names         # 0 = face_with_mask, 1 = face_no_mask
-- data_test.txt       # images used for validation and calculating mAP values
-- data_train.txt      # images used for training
-- yolov3-setup.data   # basic training configuration
-- yolov3.cfg          # network architecture and training hyperparameters
+- chart.png
+  training progress - left to run over a weekend but peaked after just a few hours and 1500 iterations
+- class.names         
+  0 = face_with_mask, 1 = face_no_mask
+- data_test.txt
+  images used for validation and calculating mAP values
+- data_train.txt
+  images used for training
+- yolov3-setup.data
+  basic training configuration
+- yolov3.cfg
+  network architecture and training hyperparameters
 
 # Main changes to yolov3.cfg
 Subdivisions set to 64 to work with limited GPU RAM
