@@ -11,6 +11,12 @@
   basic training configuration
 - **yolov3.cfg**  
   network architecture and training hyperparameters
+- **predictions**  
+  results of inference on the test images
+  
+# Results of inference on test videos
+1. <https://youtu.be/oWF1WC8WbkE>
+2. <https://youtu.be/8c0S2Y4CWsU>
 
 # Main changes to yolov3.cfg
 - Subdivisions set to 64 to work with limited GPU RAM  
