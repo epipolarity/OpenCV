@@ -25,7 +25,7 @@
 - Max_batches set to ~50000 because I planned to leave this running as long as it took and had not had success previously after 10000 batches
 - Steps set to high values which were never reached on this training run which i terminated after 48 hours at 25000 batches
 - Classes set to 2 at each of three yolo layers
-- Filters set to 21 at each of three conv layers immediately preceding a yolo layer: 21 = (5 + classes) * 3
+- Filters set to 21 at each of three conv layers immediately preceding a yolo layer: 21 = (classes + 5) * 3
 
 # Darknet commands
 ## Command for training the network
