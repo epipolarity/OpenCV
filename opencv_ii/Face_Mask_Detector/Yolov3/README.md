@@ -3,6 +3,8 @@
 ## File listing
 - **predictions**  
   results of inference on the test images
+- **README.md**  
+  this file
 - **chart.png**  
   training progress - left to run over a weekend but peaked after just a few hours and 1500 iterations
 - **class.names**      
