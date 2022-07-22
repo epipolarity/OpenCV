@@ -3,7 +3,7 @@
 ## File listing
 - **predictions**  
   results of inference on the test images
-- **Project 4 - Mask_NoMask - YoloV3.ipynb**
+- **Project 4 - Mask_NoMask - YoloV3.ipynb**  
   The jupyter notebook file which downloaded the dataset images, split them between training and validation sets, and downloaded the yolov3 model weights. There is no notebook for YoloV4 as i simply reused the dataset images and training/validation split, and downloaded the yolov4 model weights manually. Everything else was changes to the cfg and setup files, also downloaded manually, and all training and inference was done at the command line using the commands given below.
 - **README.md**  
   this file
