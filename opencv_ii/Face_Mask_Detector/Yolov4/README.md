@@ -20,8 +20,8 @@
 
   
 ## Results of inference on test videos
-1. <https://youtu.be/xxxxxxxxx>
-2. <https://youtu.be/xxxxxxxxx>
+1. <https://youtu.be/M7JhOhELhnE>
+2. <https://youtu.be/xiHsL7_TS3Q>
 
 ## Main changes to yolov4.cfg
 - Subdivisions set to 64 to work with limited GPU RAM  
