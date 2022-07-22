@@ -1,4 +1,6 @@
-# YOLOv4 submission
+# YOLOv4 submission  
+
+Note: There is no notebook for YoloV4 as i simply reused the dataset images and training/validation split from the Yolov3 part, and downloaded the yolov4 model weights manually. Everything else was changes to the cfg and setup files, also downloaded manually, and all training and inference was done at the command line using the commands given below.
 
 ## File listing
 - **predictions**  
