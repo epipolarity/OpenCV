@@ -23,7 +23,7 @@
 1. <https://youtu.be/xxxxxxxxx>
 2. <https://youtu.be/xxxxxxxxx>
 
-## Main changes to yolov3.cfg
+## Main changes to yolov4.cfg
 - Subdivisions set to 64 to work with limited GPU RAM  
 - Width/Height set to 
 - Burn_in set to 500 because 
