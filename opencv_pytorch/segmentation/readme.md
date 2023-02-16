@@ -18,5 +18,3 @@
 ## My Kaggle profile page
 <https://www.kaggle.com/epipolarity/competitions?tab=active>
 My submission score was 0.68444.
-
-Due to other work commitments and a major mental block, this project took several months from start to finish! In the end I found the main challenge was just to get the code to actually run, and once I did that then the training went without issue and I didn't have to really do much to achieve reasonable results.
